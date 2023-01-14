@@ -11,7 +11,7 @@
 
         [JsonProperty("Prix")]
         [JsonPropertyName("Prix")]
-        public int? Prix { get; set; }
+        public double Prix { get; set; }
     }
 
     public class Body

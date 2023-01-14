@@ -1,5 +1,17 @@
 //C# version
-    public class Article
+
+public class Program 
+{ 
+
+    public static void main(string[] args) 
+    {
+        //use this code to deserialize the json into the Root object
+        //Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+    }
+
+}
+
+public class Article
     {
         [JsonProperty("Quantite")]
         [JsonPropertyName("Quantite")]

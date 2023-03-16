@@ -1,34 +1,17 @@
 <resources>
-    <string name="app_name">SkarkTicket</string>
-
-    <!-- Starting page -->
-    <string name="starting_page_title">@string/app_name</string>
-    <!-- On-boarding 1/3 -->
-    <string name="on_boarding_section_1_1">Tous vos tickets numériques au meme endroit</string>
-    <string name="on_boarding_section_button">Commencer</string>
-
-    <!-- On-boarding 2/3 -->
-    <string name="on_boarding_section_2_1">Gérer vos dépenses</string>
-
-    <!-- On-boarding 3/3 -->
-    <string name="on_boarding_section_3_1">Régler vos achats en caisse</string>
-    <string name="on_boarding_section_3_2">Approchez votre smarphone de la borne NFC</string>
-    <string name="on_boarding_section_3_3">Retrouvez votre ticket de caisse numérique</string>
-
-    <!-- Home page -->
-    <string name="home_page_welcome">Bienvenue</string>
-    <string name="home_page_my_tickets">Mes Tickets</string>
-
-    <!-- Ticket detail page -->
-    <string name="ticket_detail_page_section">@string/home_page_my_tickets</string>
-
-    <!-- Bottom nagivation -->
-    <string name="home_bottom">Acceuil</string>
-    <string name="budget_bottom">Budget</string>
-    <string name="ticket_bottom">Mes Tickets</string>
-    <string name="account_bottom">Mon compte</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="app_name">MyProject</string>
+    <string name="sharktech">SharkTech</string>
+    <string name="tous_vos_tickets_num_riques_au_meme_endroit">Tous vos tickets numériques au meme endroit</string>
+    <string name="commencer">Commencer</string>
+    <string name="g_rez_vos_d_penses">Gérez vos dépenses</string>
+    <string name="r_glez_vos_achats_en_caisse">Réglez vos achats en caisse</string>
+    <string name="approchez_votre_smarphone_de_la_borne_nfc">Approchez votre smarphone de la borne NFC</string>
+    <string name="retrouvez_votre_ticket_de_caisse_num_rique">Retrouvez votre ticket de caisse numérique</string>
+    <string name="bienvenue_xxxx">Bienvenue XXXX</string>
+    <string name="mes_tickets">Mes Tickets</string>
+    <string name="bienvenue">Bienvenue XXXX</string>
+    <string name="mes_tickets2">Mes Tickets</string>
+    <string name="budget">Budget</string>
+    <string name="partager">Partager</string>
+    <string name="supprimer">Supprimer</string>
 </resources>
-

@@ -1,14 +1,14 @@
 //JAVA version
 
-package java;
-import com.fasterxml.jackson.databind.ObjectMapper; // version 2.11.1
-import com.fasterxml.jackson.annotation.JsonProperty; // version 2.11.1
+package com.example.tickettemplate;
+
 /*ObjectMapper om = new ObjectMapper();
 Root root = om.readValue(myJsonString, Root.class);*/
+import com.fasterxml.jackson.annotation.JsonProperty; // version 2.11.1
 
 public class Article{
     @JsonProperty("Quantite") 
-    public int getQuantite() { 
+    public int getQuantite() {
          return this.quantite; } 
     public void setQuantite(int quantite) { 
          this.quantite = quantite; } 
@@ -19,7 +19,7 @@ public class Article{
     public void setNom(String nom) { 
          this.nom = nom; } 
     String nom;
-    @JsonProperty("Prix") 
+    @JsonProperty("Prix")
     public double getPrix() { 
          return this.prix; } 
     public void setPrix(double prix) { 

@@ -1,9 +1,9 @@
-package java;
-import com.fasterxml.jackson.databind.ObjectMapper; // version 2.11.1
+
+package com.example.tickettemplate;
+
 import com.fasterxml.jackson.annotation.JsonProperty; // version 2.11.1
-/*ObjectMapper om = new ObjectMapper();
-Root root = om.readValue(myJsonString, Root.class);*/
-import java.util.ArrayList; // import the ArrayList class
+
+import java.util.ArrayList;
 
 public class Body{
     @JsonProperty("Article") 

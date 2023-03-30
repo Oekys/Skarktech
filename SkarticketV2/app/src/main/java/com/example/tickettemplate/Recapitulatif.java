@@ -1,6 +1,7 @@
-package java;
-import com.fasterxml.jackson.databind.ObjectMapper; // version 2.11.1
-import com.fasterxml.jackson.annotation.JsonProperty; // version 2.11.1
+
+package com.example.tickettemplate;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 /*ObjectMapper om = new ObjectMapper();
 Root root = om.readValue(myJsonString, Root.class);*/
 

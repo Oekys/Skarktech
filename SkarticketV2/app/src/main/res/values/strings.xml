@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="sharktech">SharkTech</string>
+    <string name="tous_vos_tickets_num_riques_au_meme_endroit">Tous vos tickets numériques au meme endroit</string>
+    <string name="commencer">Commencer</string>
+    <string name="g_rez_vos_d_penses">Gérez vos dépenses</string>
+    <string name="r_glez_vos_achats_en_caisse">Réglez vos achats en caisse</string>
+    <string name="approchez_votre_smarphone_de_la_borne_nfc">Approchez votre smarphone de la borne NFC</string>
+    <string name="retrouvez_votre_ticket_de_caisse_num_rique">Retrouvez votre ticket de caisse numérique</string>
+    <string name="bienvenue_xxxx">Bienvenue XXXX</string>
+    <string name="mes_tickets">Mes Tickets</string>
+    <string name="bienvenue">Bienvenue XXXX</string>
+    <string name="mes_tickets2">Mes Tickets</string>
+    <string name="budget">Budget</string>
+    <string name="partager">Partager</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="title_activity_receiving_ticket">ReceivingTicket</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

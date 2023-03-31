@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
     <!-- Intent pour le NFC et bluetooth -->
-    <uses-permission android:name="android.permission.BLUETOOTH"/>
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-
     <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
-
     <uses-permission android:name="android.permission.NFC" />
-    <uses-feature android:name="android.hardware.nfc" android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -24,11 +23,24 @@
         android:theme="@style/Theme.MyProject"
         tools:targetApi="31">
         <activity
+            android:name=".ReceivingTicket"
+            android:exported="false"
+            android:label="@string/title_activity_receiving_ticket"
+            android:theme="@style/Theme.MyProject.NoActionBar" />
+        <activity
             android:name=".DetailTicketActivity"
             android:exported="false" />
         <activity
             android:name=".TicketsActivity"
-            android:exported="false" />
+            android:exported="false">
+            <intent-filter>
+                <!-- Intent pour lire le NFC -->
+                <action android:name="android.nfc.action.TAG_DISCOVERED"/>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="pos/mac" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".BudgetActivity"
             android:exported="false" />
@@ -53,23 +65,6 @@
         <activity
             android:name=".PagegardeActivity"
             android:exported="true" />
-
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-
-            <intent-filter>
-                <!-- Intent pour lire le NFC -->
-                <action android:name="android.nfc.action.TAG_DISCOVERED"/>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <data android:mimeType="pos/mac" />
-
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
     </application>
 
 </manifest>
